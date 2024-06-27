@@ -15,7 +15,7 @@ pnpm dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## preview video
-https://www.loom.com/share/ec54f499616441159ee8933cc4649e43?sid=113b6a56-ebfa-4a16-9749-6b9499db7bdf
+[https://www.loom.com/share/ec54f499616441159ee8933cc4649e43?sid=113b6a56-ebfa-4a16-9749-6b9499db7bdf](https://www.loom.com/share/64bc2368242c4f50a17877ee5cabb0ef?sid=ef3a06a8-e9cf-4dc8-aa51-09b4d2bedffc)
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
