@@ -13,7 +13,6 @@ export async function GET() {
 }
 
 
-
 export async function POST(request: NextRequest) {
     const body = await request.json();
     const validation = createIssueSchema.safeParse(body);

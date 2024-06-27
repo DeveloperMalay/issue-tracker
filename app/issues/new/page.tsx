@@ -29,6 +29,8 @@ const NewIssuePage = () => {
   const onSubmit = handleSubmit(async (data) => {
     try {
       setSubmitting(true);
+      // const data = await axios.get("/api/issues");
+      console.log(data);
       await axios.post("/api/issues", data);
       router.push("/issues");
     } catch (error) {
