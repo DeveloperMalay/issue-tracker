@@ -1,7 +1,17 @@
 import { NextRequest, NextResponse } from "next/server";
-import { z } from 'zod';
 import prisma from "@/prisma/client";
 import { createIssueSchema } from "@/app/validationSchemas";
+
+
+export async function GET() {
+    try {
+        const issues = await prisma.issue.findMany();
+        return NextResponse.json(issues, { status: 200 });
+    } catch (error) {
+        return NextResponse.json({ error: 'Failed to fetch issues' }, { status: 500 });
+    }
+}
+
 
 
 export async function POST(request: NextRequest) {
