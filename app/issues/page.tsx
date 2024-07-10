@@ -7,7 +7,7 @@ const IssuePage = () => {
     <div>
       <Button>
         <Link href="/issues/new">New Issue</Link>
-      </Button>{" "}
+      </Button>
     </div>
   );
 };
