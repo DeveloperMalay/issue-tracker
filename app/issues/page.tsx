@@ -4,10 +4,13 @@ import Link from "next/link";
 
 const IssuePage = () => {
   return (
-    <div>
-      <Button>
-        <Link href="/issues/new">New Issue</Link>
-      </Button>
+    <div className="flex flex-col">
+      <span className="font-bold text-lg ">Create new Issues</span>
+      <div className="mt-5">
+        <Button>
+          <Link href="/issues/new">New Issue</Link>
+        </Button>
+      </div>
     </div>
   );
 };

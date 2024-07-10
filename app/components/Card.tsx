@@ -19,7 +19,7 @@ export function Card({ issue }: { issue: IssueModel }) {
       data: { id },
     });
     console.log("Card clicked!", res);
-    router.push("/");
+    router.push("/issues");
   };
 
   return (
