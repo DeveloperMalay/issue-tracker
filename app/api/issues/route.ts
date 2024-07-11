@@ -40,7 +40,9 @@ export async function DELETE(request: NextRequest) {
     } catch (error) {
         return NextResponse.json({ error: 'Failed to delete issue' }, { status: 500 });
     }
-} export async function PATCH(request: NextRequest) {
+} 
+
+export async function PATCH(request: NextRequest) {
     const body = await request.json();
     const validation = updateIssueSchema.safeParse(body);
 
